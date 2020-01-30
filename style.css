@@ -1,0 +1,117 @@
+body {
+    background-color:  hsl(0, 0%, 96%);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(76, 78, 97);
+    margin: 0;
+}
+p{
+    color: rgb(76, 78, 97, 0.6);
+}
+
+
+.container {
+    margin-top: 5em;
+    margin-bottom: 0;
+}
+
+
+
+/*-----------------
+ Header Container Styling 
+
+-----------------*/
+
+
+.header-text {
+    font-size: 1.7em;
+    text-align: center;
+    color: rgb(76, 78, 97)
+}
+
+.header-content {
+    text-align: center;
+    
+    
+}
+
+
+/*-----------------
+Card Container Styling 
+
+-----------------*/
+
+.card-container {
+    width: 23em;
+    height: 16em;
+    background-color: white;
+    position: relative;
+    border-top-style: solid;
+    border-top-width: 0.4em;
+    border-radius: 0.3em;
+    margin: auto;
+    box-shadow: 0px 3px 20px -6px rgb(148, 148, 172);
+    
+    
+}
+
+.card-container-1 {
+    border-top-color: hsl(0, 15%, 22%);
+    margin: auto;
+    margin-top: 5em;
+}
+
+.card-container-2 {
+    border-top-color: hsl(180, 62%, 55%);
+    right: 25em;
+    bottom: 6em;
+}
+
+.card-container-3 {
+    border-top-color: hsl(34, 97%, 64%);
+    bottom: 22.5em;
+    right: -25em;
+}
+
+.card-container-4 {
+    border-top-color: hsl(212, 86%, 64%);
+    top: -30em;
+}
+
+
+
+.card-container h3 {
+    padding: 0.5em 0 0 1.5em;
+   
+    
+}
+
+.card-container p {
+    padding: 0 0 0 1.5em;
+}
+
+.card-img {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+/*---------------
+Mobile Responsiveness Styling
+------------- */
+
+@media (max-width: 1024px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 2em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+        width: 21em;
+        
+    }
+
+    .card-img {
+        bottom: 1em;
+    }
+}
